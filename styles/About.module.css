@@ -1,3 +1,16 @@
 .aboutWrapper {
     display: flex;
 }
+
+.sharedValues h3 {
+  text-align: center;
+}
+
+.sharedValues h4 {
+  text-align: center;
+}
+
+.sharedValues ul {
+  display: table;
+  margin: 0 auto;;
+}
