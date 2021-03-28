@@ -14,3 +14,8 @@
   display: table;
   margin: 0 auto;;
 }
+
+.learnWithPosters {
+  display: flex;
+  justify-content: space-between;
+}

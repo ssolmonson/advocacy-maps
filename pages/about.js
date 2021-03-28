@@ -3,7 +3,7 @@ import NewLayout from "../components/NewLayout/NewLayout";
 import Twitter from "../components/Twitter/Twitter";
 import style from "../styles/About.module.css"
 import democracyReform from "../public/democracyReform.png"
-// import privacyDemocracy from "../public/privacyDemocracy.png"
+import privacyDemocracy from "../public/privacyDemocracy.png"
 import racialJustice from "../public/racialJustice.png"
 
 function About() {
@@ -39,20 +39,20 @@ function About() {
         <Twitter/>
       </div>
 
-      <div className="learnWithPosters">
+      <div className={style.learnWithPosters}>
         <div className="posterImgLink" id="leftPoster">
-          <a href="#section">
-            <img src="imp.png" alt="" />
+          <a href="https://www.youtube.com/watch?v=XF2IGKopwdk" target="_blank" rel="noreferrer">
+            <img src={democracyReform} alt="" />
           </a>
         </div>
         <div className="posterImgLink" id="middlePoster">
-          <a href="#section">
-            <img src="imp.png" alt="" />
+          <a href="https://www.youtube.com/watch?v=utCYTU3miOg&t=3s" target="_blank" rel="noreferrer">
+            <img src={racialJustice} alt="" />
           </a>
         </div>
         <div className="posterImgLink" id="rightPoster">
-          <a href="#section">
-            <img src="imp.png" alt="" />
+          <a href="https://www.youtube.com/watch?v=DLjdC8BFlvY&t=34s" target="_blank" rel="noreferrer">
+            <img src={privacyDemocracy} alt="" />
           </a>
         </div>
       </div>
