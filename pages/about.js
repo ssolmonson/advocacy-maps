@@ -39,26 +39,31 @@ function About() {
         <Twitter/>
       </div>
 
-      <div className={style.learnWithPosters}>
-        <div className="posterImgLink" id="leftPoster">
-          <a href="https://www.youtube.com/watch?v=XF2IGKopwdk" target="_blank" rel="noreferrer">
-            <img src={democracyReform} alt="" />
-          </a>
+      <div className={style.posterContainer}>
+        <div>
+          <h3>Learn with us - click a poster to watch!</h3>
         </div>
-        <div className="posterImgLink" id="middlePoster">
-          <a href="https://www.youtube.com/watch?v=utCYTU3miOg&t=3s" target="_blank" rel="noreferrer">
-            <img src={racialJustice} alt="" />
-          </a>
-        </div>
-        <div className="posterImgLink" id="rightPoster">
-          <a href="https://www.youtube.com/watch?v=DLjdC8BFlvY&t=34s" target="_blank" rel="noreferrer">
-            <img src={privacyDemocracy} alt="" />
-          </a>
+        <div className={style.learnWithPosters}>
+          <div className="posterImgLink" id="leftPoster">
+            <a href="https://www.youtube.com/watch?v=XF2IGKopwdk" target="_blank" rel="noreferrer">
+              <img src={democracyReform} className={style.posterImages} alt="" />
+            </a>
+          </div>
+          <div className="posterImgLink" id="middlePoster">
+            <a href="https://www.youtube.com/watch?v=utCYTU3miOg&t=3s" target="_blank" rel="noreferrer">
+              <img src={racialJustice} className={style.posterImages} alt="" />
+            </a>
+          </div>
+          <div className="posterImgLink" id="rightPoster">
+            <a href="https://www.youtube.com/watch?v=DLjdC8BFlvY&t=34s" target="_blank" rel="noreferrer">
+              <img src={privacyDemocracy} className={style.posterImages} alt="" />
+            </a>
+          </div>
         </div>
       </div>
 
       <div className={style.sharedValues}>
-        <h3>Statement of Shared Values</h3>
+        <h3>GGP Statement of Shared Values</h3>
         <h4>Core values: humility, curiousity, compassion</h4>
         <ul>
           <li>We believe a better quality democracy can better serve the public interests</li>
